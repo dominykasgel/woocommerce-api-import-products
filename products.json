@@ -1,0 +1,47 @@
+[
+  {
+    "product_id": 100,
+    "type": "simple",
+    "name": "My product 1",
+    "description": "My product description 1",
+    "regular_price": 100,
+    "manage_stock": 1,
+    "stock": 3,
+    "weight": 0,
+    "has_variations": 0
+  },
+  {
+    "product_id": 200,
+    "type": "variable",
+    "name": "My product 2",
+    "description": "My product description 2",
+    "regular_price": 0,
+    "manage_stock": 0,
+    "stock": 0,
+    "weight": 0,
+    "attribute_name": "Color",
+    "has_variations": 1
+  },
+  {
+    "type": "product_variation",
+    "parent_product_id": 200,
+    "description": "My product variation 1",
+    "regular_price": 120,
+    "manage_stock": 1,
+    "stock": 5,
+    "weight": 0,
+    "attribute_name": "Color",
+    "attribute_value": "red"
+  },
+  {
+    "type": "product_variation",
+    "parent_product_id": 200,
+    "description": "My product variation description 2",
+    "regular_price": 180,
+    "manage_stock": 1,
+    "stock": 6,
+    "weight": 0,
+    "attribute_name": "Color",
+    "attribute_value": "green"
+  }
+]
