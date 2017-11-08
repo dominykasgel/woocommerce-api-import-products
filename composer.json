@@ -1,0 +1,8 @@
+{
+    "name": "dominykasgel/woocommerce-api-import-products",
+    "description": "Import products and variations from JSON using WooCommerce REST API",
+    "require":
+    {
+        "automattic/woocommerce": "^1.3"
+    }
+}

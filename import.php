@@ -55,7 +55,7 @@ try {
 				$wc_attribute_term = $woocommerce->post( 'products/attributes/'. $wc_attribute['id'] .'/terms', $attribute_term_data );
 
 				if ( $wc_attribute_term ) :
-					status_message( 'Attribute term added. ID: '. $wc_attribute['id'] );
+					status_message( 'Attribute term added. ID: '. $wc_attribute_term['id'] );
 
 					// store attribute terms so that we can use it later for creating products
 					$added_attributes[$product_attribute_name]['terms'][] = $term;
